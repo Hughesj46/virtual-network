@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/vngroup/providers/Microsoft.Resources/deployments/Microsoft.Template-20231204185203/operations/C6BA99F3D7A14B9E",
+    "operationId": "C6BA99F3D7A14B9E",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-12-04T23:52:07.0010585Z",
+      "duration": "PT0.4387617S",
+      "trackingId": "40956502-1a81-43b1-8370-665f6be51758",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/vngroup/providers/Microsoft.Network/networkSecurityGroups/vtechnhsg",
+        "resourceType": "Microsoft.Network/networkSecurityGroups",
+        "resourceName": "vtechnhsg"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/vngroup/providers/Microsoft.Resources/deployments/Microsoft.Template-20231204185203/operations/08584998729594589278",
+    "operationId": "08584998729594589278",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-12-04T23:52:07.1666921Z",
+      "duration": "PT0.6043953S",
+      "trackingId": "9c58e8e8-b547-46ec-85f6-bcffb03907f1",
+      "statusCode": "OK"
+    }
+  }
+]

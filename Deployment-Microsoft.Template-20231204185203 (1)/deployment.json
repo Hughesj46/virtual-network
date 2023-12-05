@@ -1,0 +1,49 @@
+{
+  "id": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/vngroup/providers/Microsoft.Resources/deployments/Microsoft.Template-20231204185203",
+  "name": "Microsoft.Template-20231204185203",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "15089520157347681369",
+    "parameters": {
+      "networkSecurityGroupName": {
+        "type": "String",
+        "value": "vtechnhsg"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2023-12-04T23:52:07.223938Z",
+    "duration": "PT1.077906S",
+    "correlationId": "21fd01b6-a315-4b93-a6bd-9b1f457f9390",
+    "providers": [
+      {
+        "namespace": "Microsoft.Network",
+        "resourceTypes": [
+          {
+            "resourceType": "networkSecurityGroups",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/vngroup/providers/Microsoft.Network/networkSecurityGroups/vtechnhsg"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "marketplaceItemId": "Microsoft.Template"
+  }
+}
